@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.hero_head_text {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
+  color: white;
+}
+
+.hero_div_text {
+  background-color: #ceab83e2;
+}
+.hero_sub_tex {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+  color: darkslategray;
+}
+.scoop_btn {
+  width: 150px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 30px;
+  height: 60px;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(8, 8, 68);
+}
+.stic {
+  height: 80px;
+}
+.flavor_div {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 140px;
+  background-color: #d7f4fa;
+  padding-bottom: 150px;
+}
+
+.popular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 50px;
+}
+.btn_pink {
+  background-color: hotpink;
+  color: white;
+  height: 60px;
+  width: 140px;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.flavor_mix {
+  margin-top: 100px;
+}
+.ice {
+  height: 500px;
+}
+.ice_cube {
+  padding: 10px;
+  border: 3px solid rgb(101, 44, 4);
+}
+.reviews {
+  margin-top: 100px;
+  border-top: 3px solid rgb(101, 44, 4);
+  border-bottom: 3px solid rgb(101, 44, 4);
+  color: rgb(101, 44, 4);
+}
+.raw_flavor {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 30px;
+}
+.flav_text {
+  border-right: 3px solid rgb(101, 44, 4);
+  padding: 50px;
+  border-bottom: 3px solid rgb(101, 44, 4);
+}
+
+.fl_txt {
+  border-right: 3px solid rgb(101, 44, 4);
+  border-left: 3px solid rgb(101, 44, 4);
+  padding: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  max-width: 60%;
+  border-bottom: 3px solid rgb(101, 44, 4);
+}
+.fl_txt_2 {
+  padding: 50px;
+
+  border-left: 3px solid rgb(101, 44, 4);
+  border-bottom: 3px solid rgb(101, 44, 4);
+}
+.text_div {
+}
+.rev_img {
+  height: 80px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.rev_img2 {
+  position: relative;
+  right: 10px;
+}
+.rev_text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+}
+.peller_tab {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(255, 105, 180, 0.481);
+  padding-bottom: 70px;
+}
+.peller_img {
+  height: 600px;
+}
+
+.peller_text {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
+}
+.peller_tet {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+.eler_dv {
+  margin-top: 40px;
+  max-width: 600px;
+}
+.patnership {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
+  margin-top: 80px;
+  text-align: center;
+}
+.whl {
+  height: 400px;
+}
+.pat_text {
+  max-width: 600px;
+}
+.packages {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.package {
+  height: 600px;
+}
+.pricing {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.btn_cart {
+  background-color: chocolate;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
+
+.bg_header{
+  background-color: rgba(244, 27, 135, 0.823);
+  color: white;
+}

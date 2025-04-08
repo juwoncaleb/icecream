@@ -1,310 +1,348 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.h_head {
-  max-width: 900px;
-}
-.hero_head {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  color: rgb(240, 240, 240);
-  line-height: 72px;
-  font-size: 60px;
-  text-align: center;
-}
-
-.warning {
-  text-align: center;
+.hero_head_text {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
   color: white;
-  font-size: 17px;
-  font-family: "Instrument Sans", sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  color: rgb(240, 240, 240);
-  font-size: 17px;
-  line-height: 22px;
 }
 
-.warnifnsub {
-  max-width: 700px;
+.hero_div_text {
+  background-color: rgba(206, 171, 131, 0.8862745098);
 }
 
-.importance {
-  background-color: red;
+.hero_sub_tex {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 800;
+  color: darkslategray;
 }
 
-.salescall {
-  color: red;
+.scoop_btn {
+  width: 150px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 30px;
+  height: 60px;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(8, 8, 68);
 }
-.video {
-  width: 742px;
-  max-width: 100%;
-  aspect-ratio: 1.7708830548926013;
-  display: block;
-  margin: auto;
+
+.stic {
+  height: 80px;
 }
-.next_btn {
-  background-color: red;
+
+.flavor_div {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 140px;
+  background-color: #d7f4fa;
+  padding-bottom: 150px;
+}
+
+.popular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 50px;
+}
+
+.btn_pink {
+  background-color: hotpink;
+  color: white;
+  height: 60px;
+  width: 140px;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.flavor_mix {
+  margin-top: 100px;
+}
+
+.ice {
+  height: 500px;
+}
+
+.ice_cube {
+  padding: 10px;
+  border: 3px solid rgb(101, 44, 4);
+}
+
+.reviews {
+  margin-top: 100px;
+  border-top: 3px solid rgb(101, 44, 4);
+  border-bottom: 3px solid rgb(101, 44, 4);
+  color: rgb(101, 44, 4);
+}
+
+.raw_flavor {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 30px;
+}
+
+.flav_text {
+  border-right: 3px solid rgb(101, 44, 4);
+  padding: 50px;
+  border-bottom: 3px solid rgb(101, 44, 4);
+}
+
+.fl_txt {
+  border-right: 3px solid rgb(101, 44, 4);
+  border-left: 3px solid rgb(101, 44, 4);
+  padding: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  max-width: 60%;
+  border-bottom: 3px solid rgb(101, 44, 4);
+}
+
+.fl_txt_2 {
+  padding: 50px;
+  border-left: 3px solid rgb(101, 44, 4);
+  border-bottom: 3px solid rgb(101, 44, 4);
+}
+
+.rev_img {
+  height: 80px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.rev_img2 {
+  position: relative;
+  right: 10px;
+}
+
+.rev_text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+}
+
+.peller_tab {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(255, 105, 180, 0.481);
+  padding-bottom: 70px;
+}
+
+.peller_img {
+  height: 600px;
+}
+
+.peller_text {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
+}
+
+.peller_tet {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+
+.eler_dv {
+  margin-top: 40px;
+  max-width: 600px;
+}
+
+.patnership {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.whl {
+  height: 400px;
+}
+
+.pat_text {
+  max-width: 600px;
+}
+
+.packages {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.package {
+  height: 600px;
+}
+
+.pricing {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.btn_cart {
+  background-color: chocolate;
   color: white;
   width: 120px;
-  border-radius: 7px;
-  height: 50px;
-  font-weight: 500;
-  font-size: 18px;
+  height: 40px;
 }
 
-.button_bg {
-  font-family: Montserrat;
-  padding: 20px;
-  width: 500px;
-  background-color: rgba(255, 0, 0, 0.293);
-  margin-top: 50px;
-  height: 140px;
-  margin-bottom: 100px;
-}
-
-.Trigger {
+.bg_header {
+  background-color: rgba(244, 27, 135, 0.823);
   color: white;
 }
 
-.review_whole {
-  background-color: rgb(0, 1, 29);
+/* components/Footer.module.css */
+.footer {
+  background-color: #381c0b;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
-.money {
-  font-weight: bold;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.leftSection {
+  flex: 1;
+}
+
+.heading {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.tagline {
+  margin-bottom: 1rem;
+}
+
+.rightSection {
+  flex: 1;
+  text-align: right;
+}
+
+.links {
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.link:hover {
   text-decoration: underline;
 }
 
-.testimonila_header {
-  font-family: "EB Garamond", serif;
-  font-size: 68px;
-  line-height: 75px;
-  margin-bottom: 50px;
+.socialLinks {
+  margin-top: 1rem;
 }
 
-.review_land {
-  background-color: rgb(0, 1, 29);
-  height: 100vh;
-  padding-top: 70px;
+.socialLink {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-.rev_head {
-  max-width: 900px;
+.socialLink:hover {
+  text-decoration: underline;
 }
 
-.review_land {
-  background-color: rgb(0, 1, 29);
-  height: 110vh;
-  margin: 0; /* Ensure no margin */
+.bottom {
+  margin-top: 2rem;
 }
 
-.review_whole,
-.review_land {
-  padding: 0; /* Reset padding */
+.copy {
+  font-size: 0.9rem;
 }
 
-iframe {
-  margin: 0; /* Remove margin on iframe */
+.head_text {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-.rest_review {
-  background-color: black;
+/* In Footer.module.css, add this for responsiveness */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .leftSection, .rightSection {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .socialLinks {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+.Abt_head_text {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 90px;
   color: white;
 }
 
-.bord {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  height: 35px;
-  width: 150px;
-  border-radius: 7px;
-  border: 1px solid rgba(255, 255, 255, 0.237);
+.chris {
+  height: 600px;
 }
 
-.broker_ext {
-  max-width: 800px;
-  font-family: Nunito;
-  font-size: 35px;
-  margin-bottom: 100px;
+.about_chris {
+  padding-top: 130px;
+  background-color: rgba(206, 171, 131, 0.5450980392);
+  margin-bottom: 60px;
 }
 
-.pastclient {
-  height: 400px;
-  border-radius: 10px;
-  width: 400px;
+.ceo {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
 }
 
-.clienthead {
+.chris_bio {
+  font-family: "Nunito Sans", sans-serif;
   font-size: 25px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
-.retainer {
-  font-family: Nunito;
-  font-size: 45px;
-  margin-top: 150px;
+.chris_div {
+  max-width: 500px;
 }
 
-.process {
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-top: 170px;
+.staff_img {
+  height: 300px;
 }
 
-.steps_head {
-  font-family: Nunito;
-  font-size: 35px;
-  text-align: center;
+.Lab_text {
+  margin-top: 50px;
   margin-bottom: 50px;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 70px;
+  color: hotpink;
 }
 
-.card_txt {
-  text-align: center;
+.ice_wh {
+  height: 500px;
 }
 
-.deal {
-  margin-top: 150px;
-  font-family: Nunito;
-  padding: 40px;
-}
-
-.time {
-  color: gray;
-  font-family: Nunito;
-  text-align: center;
-} /*# sourceMappingURL=global.css.map */
-.app_head {
-  background-color: rgb(228, 253, 240);
+.history {
   padding-top: 100px;
-}
-.book {
-  height: 400px;
-}
-
-.secre {
-  font-family: "EB Garamond", serif;
-  font-size: 50px;
-}
-.app_text {
-  max-width: 400px;
-  font-weight: 500;
-}
-
-.caution {
-  margin-top: 150px;
-  background-color: #ffdccb;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  color: black !important;
-}
-.chase_bold {
-  font-weight: 800;
-}
-.rese {
-  font-family: Nunito;
-  font-size: 35px;
-}
-.cautpn {
-  max-width: 600px;
-}
-@media only screen and (max-width: 800px) {
-  .testimonila_header {
-    font-family: "EB Garamond", serif;
-    font-size: 48px;
-    line-height: 55px;
-    margin-bottom: 50px;
-  }
-  .broker_ext {
-    max-width: 800px;
-    font-family: Nunito;
-    font-size: 30px;
-    margin-left: 7px;
-    margin-right: 7px;
-    margin-bottom: 100px;
-  }
-  .pastclient {
-    height: 300px;
-    border-radius: 10px;
-    width: 400px;
-  }
-  .divimg {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .retainer {
-    font-family: Nunito;
-    font-size: 35px;
-    margin-top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .app_head {
-    display: grid;
-  }
-  .caution {
-    display: grid;
-  }
-}
-
-/* Responsive styles for screens smaller than 450px */
-@media only screen and (max-width: 450px) {
-  .book {
-    height: 270px;
-  }
-  .video {
-    width: 400px !important;
-  }
-  .testimonila_header {
-    font-family: "EB Garamond", serif;
-    font-size: 38px;
-    line-height: 50px;
-    margin-bottom: 50px;
-  }
-  .hero_head {
-    font-size: 30px;
-    line-height: 42px;
-    text-align: center;
-    font-weight: 600;
-    color: rgb(240, 240, 240);
-    font-family: "Inter", sans-serif;
-  }
-
-  .warning {
-    text-align: center;
-    font-size: 15px;
-    line-height: 22px;
-    font-style: italic;
-    font-weight: 400;
-    font-family: "Instrument Sans", sans-serfif;
-    color: rgb(240, 240, 240);
-  }
-
-  .button_bg {
-    padding: 20px;
-    width: 400px;
-    background-color: rgba(255, 0, 0, 0.293);
-    margin-top: 50px;
-    height: 140px;
-    margin-bottom: 100px;
-    font-family: Montserrat;
-  }
-  .secre {
-    font-family: "EB Garamond", serif;
-    font-size: 35px;
-  }
-  .rese {
-    font-family: Nunito;
-    font-size: 25px;
-  }
-  .cautpn {
-    max-width: 600px;
-    margin-left: 40px;
-  }
-}
+  padding-bottom: 100px;
+}/*# sourceMappingURL=global.css.map */

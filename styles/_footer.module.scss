@@ -1,0 +1,99 @@
+/* components/Footer.module.css */
+.footer {
+    background-color: #381c0b;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .leftSection {
+    flex: 1;
+  }
+  
+  .heading {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .tagline {
+    margin-bottom: 1rem;
+  }
+  
+  .rightSection {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .links {
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .socialLinks {
+    margin-top: 1rem;
+  }
+  
+  .socialLink {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .socialLink:hover {
+    text-decoration: underline;
+  }
+  
+  .bottom {
+    margin-top: 2rem;
+  }
+  
+  .copy {
+    font-size: 0.9rem;
+  }
+
+  .head_text{
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+
+  }
+  /* In Footer.module.css, add this for responsiveness */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .leftSection, .rightSection {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .socialLinks {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+  
