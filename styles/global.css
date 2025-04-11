@@ -14,6 +14,16 @@
   color: white;
 }
 
+.faq_question {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+
+.faq_container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .hero_div_text {
   background-color: rgba(206, 171, 131, 0.8862745098);
 }
@@ -345,4 +355,19 @@
 .history {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.paymnet_btn {
+  height: 70px;
+  background-color: #F6439C;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+.check {
+  background-color: rgba(215, 244, 250, 0.537254902);
+  font-family: "Nunito Sans", sans-serif;
 }/*# sourceMappingURL=global.css.map */

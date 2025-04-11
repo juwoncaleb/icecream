@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Footer from "./component/footer";
 import Header from "./component/header";
+import FAQ from "./component/Faq";
 
 const images = [
   "/hero1.jpg",
@@ -170,6 +171,7 @@ export default function Home() {
 
         </div>
       </div>
+      <FAQ/>
       <div>
         <p className="patnership">
           WE SELL IN WHOLESALES - OPEN TO PARTNERSHIP
