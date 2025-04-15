@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import Header from "./component/header";
+import Link from "next/link";
 import client from "@/lib/contentful";
 
 // Fetching data from Contentful
@@ -19,7 +19,7 @@ export async function getStaticProps() {
 
 export default function Shop({ content }) {
   const [cart, setCart] = useState([]);
-  console.log(content); // Log the content for debugging
+
 
   const addToCart = (item) => {
     setCart([...cart, item]);
@@ -27,7 +27,6 @@ export default function Shop({ content }) {
 
   return (
     <div>
-      <Header />
 
       <div
         style={{
@@ -38,12 +37,13 @@ export default function Shop({ content }) {
         }}
       >
         {content.map((item) => {
-          const { name, price, image } = item.fields;
+          const { name, price, image, slug } = item.fields;
 
           // Extract image URL
-          const imageUrl = image && image[0]?.fields?.file?.url
-            ? "https:" + image[0].fields.file.url
-            : "/placeholder.png"; // Fallback image
+          const imageUrl =
+            image && image[0]?.fields?.file?.url
+              ? "https:" + image[0].fields.file.url
+              : "/placeholder.png"; // Fallback image
 
           return (
             <div
@@ -54,49 +54,59 @@ export default function Shop({ content }) {
                 padding: "10px",
               }}
             >
-              {/* Image */}
-              {imageUrl && (
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Image
-                    src={imageUrl}
-                    alt={name}
-                    width={300}
-                    height={300}
-                    style={{
-                      borderRadius: "8px",
-                      objectFit: "cover",
-                    }}
-                  />
-                </div>
-              )}
-
-              {/* Name + Price and Button */}
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  marginTop: "10px",
-                }}
+              {/* Link to dynamic page */}
+              <Link
+                href={`/shop/${item.sys.id}`}
+                style={{ textDecoration: "none", color: "inherit" }}
               >
-                <div>
-                  <h3 style={{ margin: "0 0 5px 0" }}>{name}</h3>
-                  <p style={{ margin: 0 }}>${price.toFixed(2)}</p>
-                </div>
-                <button
+                {/* Image */}
+                {imageUrl && (
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Image
+                      src={imageUrl}
+                      alt={name}
+                      width={300}
+                      height={300}
+                      style={{
+                        borderRadius: "8px",
+                        objectFit: "cover",
+                      }}
+                    />
+                  </div>
+                )}
+
+                {/* Name + Price */}
+                <div
                   style={{
-                    backgroundColor: "#000",
-                    color: "#fff",
-                    padding: "8px 12px",
-                    border: "none",
-                    borderRadius: "5px",
-                    cursor: "pointer",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginTop: "10px",
                   }}
-                  onClick={() => addToCart({ name, price })}
                 >
-                  Add to Cart
-                </button>
-              </div>
+                  <div>
+                    <h3 style={{ margin: "0 0 5px 0" }}>{name}</h3>
+                    <p style={{ margin: 0 }}>${price.toFixed(2)}</p>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Add to Cart Button */}
+              <button
+                style={{
+                  marginTop: "10px",
+                  width: "100%",
+                  backgroundColor: "#000",
+                  color: "#fff",
+                  padding: "8px 12px",
+                  border: "none",
+                  borderRadius: "5px",
+                  cursor: "pointer",
+                }}
+                onClick={() => addToCart({ name, price })}
+              >
+                Add to Cart
+              </button>
             </div>
           );
         })}
